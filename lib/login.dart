@@ -195,8 +195,8 @@ class Login extends StatelessWidget {
                   shadowColor: Colors.grey,
                   elevation: 2.0,
                   minimumSize: const Size(280, 50)),
-              child: const Row(
-                children: [
+              child: Row(
+                children: const [
                   Padding(padding: EdgeInsets.only(left: 64.0)),
                   Icon(Icons.email),
                   Padding(padding: EdgeInsets.only(left: 16.0)),
